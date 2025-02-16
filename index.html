@@ -4,12 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Virtual Business Card</title>
+    <style>
+        /* Basic page reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1b1b1b; /* Dark Charcoal */
+            color: #ecf0f1; /* Light Grey text */
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #ecf0f1;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            line-height: 1;
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #2b2b2b; /* Slightly lighter grey */
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Headshot Styles */
+        .headshot {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        /* Contact Info Styles */
+        .contact-info {
+            font-size: 18px;
+            margin-bottom: 25px;
+            line-height: 1.8;
+        }
+
+        .contact-info a {
+            color: #d6d6d6; /* Blue color for links */
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Button Styles */
+        .button {
+            display: inline-block;
+            padding: 18px 40px;
+            font-size: 20px;
+            color: #fff;
+            background-color: #3f007a; /* Darker Blue */
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            width: 80%;
+            max-width: 300px;
+        }
+
+        .button:hover {
+            background-color: #451abc; /* Light Blue */
+        }
+
+        /* Footer Styling */
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #95a5a6; /* Light Grey */
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #d1d1d1;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .button {
+                font-size: 18px;
+                padding: 16px 32px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Contact Me</h1>
-    <p>Click below to add my contact to your phone:</p>
-    <a href="https://www.dropbox.com/scl/fi/s0ktsdwixgzjjqxu2eowa/Josefmurmann.vcf?rlkey=5f590d17e6y6rz472vid21rym&st=ys39jewi&dl=1" download>
-        <button>Add Contact</button>
-    </a>
+    <div class="container">
+        <!-- Headshot -->
+        <img src="me.jpg" alt="josef" class="headshot">
+        
+        <!-- Name and Role -->
+        <h1>Josef Murmann</h1>
+        <p>Cardaq</p>
+        <p>Tech lead</p>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <p>Email: <a href="mailto:josef.murmann@gmail.com">josef.murmann@gmail.com</a></p>
+            <p>Phone: <a href="tel:07805195552">07805195552</a></p>
+            <p><a href="https://www.linkedin.com/in/josef-murmann-1a0444299/" target="_blank">LinkedIn Profile</a></p>
+        </div>
+
+        <!-- Add Contact Button -->
+        <a href="https://www.dropbox.com/scl/fi/s0ktsdwixgzjjqxu2eowa/Josefmurmann.vcf?rlkey=5f590d17e6y6rz472vid21rym&st=ys39jewi&dl=1" class="button" download>
+            Add Contact
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
 </body>
 </html>
+
