@@ -1,9 +1,10 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Josef;Murmann;;Mr.;
+N:Murmann;Josef;
 FN:Josef Murmann
+PHOTO;TYPE=JPEG;VALUE=URI:https://github.com/JosefMurmann/VirtualCard/blob/0ec6874b96375346c2b20096049cbda2117709f6/metn.jpg
 ORG:Cardaq
 TITLE:Tech Lead
-TEL;TYPE=WORK,VOICE:(44) 07805195552
+TEL;TYPE=WORK,VOICE:07805195552
 EMAIL:josef.murmann@gmail.com
 END:VCARD
