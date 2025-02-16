@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Murmann;Josef;;Mr.;
+FN:Josef Murmann
+ORG:Cardaq
+TITLE:Tech Lead
+TEL;TYPE=WORK,VOICE:(44) 07805195552
+EMAIL:josef.murmann@gmail.com
+END:VCARD
